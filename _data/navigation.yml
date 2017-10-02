@@ -1,12 +1,28 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Contact"
-    url: /contact/
+  - title: "Proyectos"
+    url: /docs/not-build-yet/
+  - title: "Docs"
+    url: https://cherrysquid.github.io/doc/
+  - title: "Quiénes Somos"
+    url: /docs/not-build-yet/
+  - title: "Contacto"
+    url: /docs/not-build-yet/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/

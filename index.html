@@ -1,4 +1,29 @@
 ---
-layout: home
-author_profile: true
+title: "¿Estás listo para la nube?"
+layout: splash
+author_profile: false
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/splash2.jpg
+  cta_url: "https://github.com/mmistakes/minimal-mistakes/"
+excerpt: "Es el momento."
+intro:
+  - excerpt: 'Soluciones a medida.'
+feature_row:
+  - image_path: /assets/images/mm-customizable-feature.png
+    alt: "placeholder image 1"
+    title: "Sin complicaciones"
+    excerpt: "No se preocupe de nada. Nosotros nos encargamos de toda la infraestructura."
+  - image_path: /assets/images/mm-free-feature.png
+    alt: "placeholder image 2"
+    title: "Rapido"
+    excerpt: "Siempre eficiente. Si su *negocio* crece la solución crece con él."
+  - image_path: /assets/images/mm-responsive-feature.png
+    title: "Siempre disponible"
+    excerpt: "En cualquier momento, en cualquier lugar. En cualquier dispositivo."
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
